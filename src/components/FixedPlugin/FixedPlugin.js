@@ -30,9 +30,7 @@ function FixedPlugin(props) {
   return (
     <div className="fixed-plugin">
       <Dropdown isOpen={dropDownIsOpen} toggle={handleClick}>
-        <DropdownToggle tag="div">
-          <i className="fa fa-cog fa-2x" />
-        </DropdownToggle>
+        
         <ul className="dropdown-menu show">
           <li className="header-title">SIDEBAR BACKGROUND</li>
           <li className="adjustments-line">
